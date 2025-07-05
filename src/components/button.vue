@@ -1,7 +1,10 @@
 <script setup lang="ts">
-defineProps<{increment: () => void}>();
+defineProps<{
+  label: string;
+  onClick: () => void
+}>();
 </script>
 
 <template>
-  <button class="button" @click="increment">ボタン</button>
+  <button class="button" @click="onClick">{{ label }}</button>
 </template>
