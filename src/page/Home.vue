@@ -1,16 +1,29 @@
 <script setup lang="ts">
-import { ref } from 'vue';
-import Button from '@/components/button.vue'
+import { RouterLink } from 'vue-router'
 
-const count = ref(0)
-
-const increment = () => {
-  count.value++
-}
+const list = [
+  { name: 'About', path: '/about' },
+  { name: 'Counter', path: '/counter' },
+]
 </script>
 
 <template>
   <h1>Home Page</h1>
-  <p>{{ count }}</p>
-  <Button :increment="increment" />
+  <ul class="list">
+    <li v-for="item in list" class="list-item">
+      <RouterLink :to="item.path">
+        {{ item.name }}
+      </RouterLink>
+    </li>
+  </ul>
 </template>
+
+<style scoped>
+.list {
+  padding: 0;
+}
+
+.list-item {
+  list-style: none;
+}
+</style>
