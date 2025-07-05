@@ -2,8 +2,8 @@
 import { RouterLink } from 'vue-router'
 
 const list = [
-  { name: 'About', path: '/about' },
   { name: 'Counter', path: '/counter' },
+  { name: 'Todo', path: '/todo' },
 ]
 </script>
 
