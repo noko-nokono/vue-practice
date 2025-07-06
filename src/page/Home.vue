@@ -4,6 +4,7 @@ import { RouterLink } from 'vue-router'
 const list = [
   { name: 'Counter', path: '/counter' },
   { name: 'Todo', path: '/todo' },
+  { name: 'Data Fetch', path: '/data-fetch' },
 ]
 </script>
 
