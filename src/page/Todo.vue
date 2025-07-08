@@ -35,7 +35,7 @@ const completedTodo = (id: number) => {
   <h1>Todo Page</h1>
   <div>
     <input :value="title" :onchange="updateTitle" />
-    <Button :onClick="addTodo" label="追加" />
+    <Button :onClick="addTodo">追加</Button>
   </div>
   <ul>
     <li

@@ -16,6 +16,6 @@ const decrement = () => {
 <template>
   <h1>Counter Page</h1>
   <p>{{ count }}</p>
-  <Button :onClick="increment" label="Increment" />
-  <Button :onClick="decrement" label="Decrement" />
+  <Button :onClick="increment">Increment</Button>
+  <Button :onClick="decrement">Decrement</Button>
 </template>
