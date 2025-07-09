@@ -1,8 +1,7 @@
 <template>
   <v-app id="app">
     <v-container>
-      <!-- <v-btn color="primary" large>Vuetify 2 Button</v-btn> -->
-      <h1>Hello World</h1>
+      <router-view></router-view>
     </v-container>
   </v-app>
 </template>
