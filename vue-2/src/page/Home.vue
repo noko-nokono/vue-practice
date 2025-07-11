@@ -3,6 +3,7 @@ export default {
   data() {
     const list = [
       { name: 'Counter', path: '/counter' },
+      { name: 'Todo', path: '/todo' },
     ]
     return {
       list
