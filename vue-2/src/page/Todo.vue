@@ -50,6 +50,7 @@ export default {
         <input type="checkbox" :checked="todo.completed" @change="() => completedTodo(todo.id)">
       </li>
     </ul>
+    <v-btn color="secondary" to="/">Back to Home</v-btn>
   </div>
 </template>
 
@@ -58,6 +59,7 @@ export default {
   list-style: none;
   padding-left: 0 !important;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .list-item {
