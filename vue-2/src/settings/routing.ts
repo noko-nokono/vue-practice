@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from '../page/Home.vue';
-import Counter from '../page/Counter.vue';
+import Home from '@/page/Home.vue';
+import Counter from '@/page/Counter.vue';
 
 Vue.use(VueRouter);
 
