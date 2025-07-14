@@ -4,6 +4,7 @@ export default {
     const list = [
       { name: 'Counter', path: '/counter' },
       { name: 'Todo', path: '/todo' },
+      { name: 'DataFetch', path: '/data-fetch' },
     ]
     return {
       list
